@@ -53,7 +53,7 @@ class App extends Component {
         <div className="container" style={{ marginTop: '20px' }}>
           <div className="field has-addons has-addons-centered">
             <div className="control">
-              <input className="input" type="text" ref={(input) => { this.textInput = input; }} onChange={this.handleChange} />
+              <input className="input" type="text" placeholder="请输入微博图片地址" ref={(input) => { this.textInput = input; }} onChange={this.handleChange} />
             </div>
             <div className="control">
               <a className="button is-primary" onClick={this.handleSubmit}>
