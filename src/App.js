@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import getUserHomepage from './weibo';
 import Hexo from './components/Hexo'
+import GithubBadge from '@sinchang/react-github-badge'
 
 class App extends Component {
   state = {
@@ -49,6 +50,7 @@ class App extends Component {
     const url = this.state.homepageUrl;
     return (
       <div className="App">
+        <GithubBadge slug="sinchang/weibo-image-po" />
         <Hexo />
         <div className="container" style={{ marginTop: '20px' }}>
           <div className="field has-addons has-addons-centered">

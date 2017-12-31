@@ -10,6 +10,14 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@sinchang/react-github-badge@^0.0.2":
+  version "0.0.2"
+  resolved "http://registry.npm.taobao.org/@sinchang/react-github-badge/download/@sinchang/react-github-badge-0.0.2.tgz#ad894038175231a75e8c316217920cc5cf4c1a10"
+  dependencies:
+    prop-types "^15.6.0"
+    react "^16.2.0"
+    react-dom "^16.2.0"
+
 "@types/node@*":
   version "8.5.2"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-8.5.2.tgz#83b8103fa9a2c2e83d78f701a9aa7c9539739aa5"
